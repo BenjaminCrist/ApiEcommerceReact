@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: rgba(19, 172, 90, 0.7);
+    height: 4rem;
+}
+nav div.row{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+main{
+    min-height: 90vh;
+}
+
+.listProduct{
+    display: flex;
+
+}
+.listProduct .card{
+    width: ;
+}

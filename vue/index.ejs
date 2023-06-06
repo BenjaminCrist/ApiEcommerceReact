@@ -1,0 +1,18 @@
+<%- include('reusable/header'); %>
+    <main class="container">
+        <section class="listProduct row">
+            <% for (let i=0; i < products.length; i++) { %>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-thumbnail">
+
+                        </div>
+                        <div class="card-container">
+                            <%- products[i].nomProduit %>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </section>
+    </main>
+    <%- include('reusable/footer'); %>
